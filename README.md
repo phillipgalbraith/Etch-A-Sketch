@@ -1,4 +1,4 @@
-Rock-Paper-Scissors project
+Etch-A-Sketch project
 
 Breif Description
 I made a sketchpad page that can reset to different "resolutions".
