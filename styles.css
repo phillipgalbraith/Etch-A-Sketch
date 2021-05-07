@@ -1,18 +1,12 @@
-:root {
-    --gridBoxes: 16;  /*variable stores integer for number of squares on a side*/
-    --gridBoxSize: "6.25%";  /*how wide the squares are*/
-  }  
 
 #container {
-    display: grid;
-        justify-self: center;
-        background-color:aquamarine;
+    display: flex;
+    flex-flow: row wrap;
+        border-style: solid;
+        border-color: black;
+        border-width: 5px;
+        background-color:white;
         height: 960px;
-        width: 960px;
-        grid-template-columns: repeat(var(--gridBoxes), var(--gridBoxSize) );
-        
+        width: 960px;    
 }
 
-.square {
-    background-color: red;
-}
